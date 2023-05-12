@@ -16,7 +16,7 @@ export class CdkdemocicdStack extends cdk.Stack {
         commands: [
           'npm ci',
           'npm run build',
-          'npm cdk synth'
+          'npx cdk synth'
         ],
       }),
     });
